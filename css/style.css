@@ -1,0 +1,113 @@
+body{
+    font-family:"Roboto", sans-serif;
+    background-color:#fff;
+    color: #434455;
+}
+ul{
+    list-style-type: none;
+}
+a:hover, a:focus{
+    color: #404bbf;
+    text-decoration: none;
+}
+button:hover, button:focus{
+    background: #404bbf;
+}
+a{
+    font-size: 12px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.section-one-title{
+    font-size: 56px;
+    line-height: 1.07;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.section-one-button{
+    font-size: 16px;
+    line-height: 1.5;
+    background: #4d5ae5;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+}
+.title-two-level{
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+.title-three-level{
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.p-section{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+.link-logo-header{
+    line-height: 1.17;
+    color: #4d5ae5;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.logo-color{
+    color: #2e2f42;
+}
+.nav-link{
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+.nav-address{
+    font-style: normal;
+    letter-spacing: 0.02em;
+}
+.nav-address-link{
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+}
+.section-one{
+    background: #2e2f42;
+}
+.section-three{
+    background: #f4f4fd;
+}
+.footer{
+    background: #2e2f42;
+}
+.link-logo-footer{
+    color: #4d5ae5;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.footer > p{
+    color: #f4f4fd;
+}
+.section-three-img{
+    background-color: #FFFFFF;
+}
+.logo-color-footer{
+    color: #f4f4fd;
+}
