@@ -2,9 +2,25 @@ body{
     font-family:"Roboto", sans-serif;
     background-color:#fff;
     color: #434455;
+    margin: 0;
 }
-ul{
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+p{
+    margin: 0;
 }
 a:hover, a:focus{
     color: #404bbf;
@@ -17,6 +33,12 @@ a{
     font-size: 12px;
     line-height: 1.5;
     text-decoration: none;
+}
+.page-header{
+    padding: 24px 0;
+}
+.page-nav{
+    padding: 0;
 }
 .section-one-title{
     font-size: 56px;
