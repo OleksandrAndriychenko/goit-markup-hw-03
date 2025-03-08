@@ -188,6 +188,3 @@ a{
     gap: 24px;
     width: calc((100% - 72px) / 4);
 }
-.container-section-three{
-    flex-direction: column;
-}
