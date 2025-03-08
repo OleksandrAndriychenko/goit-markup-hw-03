@@ -74,6 +74,7 @@ a{
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .title-three-level{
     font-size: 20px;
@@ -125,6 +126,7 @@ a{
 }
 .section-three{
     background: #f4f4fd;
+    padding: 120px 0;
 }
 .footer{
     background: #2e2f42;
@@ -143,6 +145,7 @@ a{
 }
 .section-three-img{
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 .logo-color-footer{
     color: #f4f4fd;
@@ -180,4 +183,11 @@ a{
 }
 .section-two-list-item{
     width: calc((100% - 72px) / 4);
+}
+.section-three-list{
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
+}
+.container-section-three{
+    flex-direction: column;
 }
