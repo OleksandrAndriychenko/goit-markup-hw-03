@@ -36,6 +36,9 @@ a{
     line-height: 1.5;
     text-decoration: none;
 }
+img{
+    display: block;
+}
 .page-header{
     padding: 24px 0;
     border-bottom: 1px solid #e7e9fc;
@@ -52,6 +55,7 @@ a{
     text-align: center;
     letter-spacing: 0.02em;
     max-width: 496px;
+    padding-bottom: 48px;
 }
 .section-one-button{
     font-size: 16px;
@@ -66,6 +70,7 @@ a{
     border: none;
     border-radius: 4px;
     max-width: 169px;
+    
 }
 .title-two-level{
     font-size: 36px;
@@ -124,6 +129,7 @@ a{
 .section-one{
     background: #2e2f42;
     padding: 188px 0;
+
 }
 .section-three{
     background: #f4f4fd;
@@ -157,6 +163,7 @@ a{
     padding: 0 15px;
     margin: 0 auto;
     width: 1158px;
+    align-items: center;
 }
 .nav{
     display: flex;
@@ -203,4 +210,14 @@ a{
 }
 .section-four-list-item{
     width: calc((100% - 48px) / 3);
+}
+.section-one > .container{
+    flex-direction: column;
+}
+.section-three > .container{
+    flex-direction: column;
+}
+
+.section-four > .container{
+    flex-direction: column;
 }
