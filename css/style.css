@@ -137,6 +137,7 @@ img{
 }
 .footer{
     background: #2e2f42;
+    padding: 100px 0;
 }
 .link-logo-footer{
     color: #4d5ae5;
@@ -146,9 +147,12 @@ img{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer > p{
     color: #f4f4fd;
+
 }
 .section-three-img{
     background-color: #FFFFFF;
@@ -200,8 +204,9 @@ img{
     padding: 32px 0;
     text-align: center;
 }
-.section-four{
+.section-four > .container{
     padding-top: 120px;
+    margin-bottom: 120px;
 }
 
 .section-four-list{
@@ -227,3 +232,10 @@ img{
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+.footer > .container{
+    flex-direction: column;
+}
+.p-footer{
+    color: #F4F4FD;
+}
+
