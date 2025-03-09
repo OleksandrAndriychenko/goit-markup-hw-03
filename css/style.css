@@ -148,7 +148,7 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 16px;
-    display: inline-block;
+    display: block;
 }
 .footer > p{
     color: #f4f4fd;
@@ -237,5 +237,4 @@ img{
 }
 .p-footer{
     color: #F4F4FD;
-    justify-content: flex-start;
 }
