@@ -163,7 +163,6 @@ img{
     color: #f4f4fd;
 }
 .container{
-    display: flex;
     padding: 0 15px;
     margin: 0 auto;
     width: 1158px;
@@ -216,16 +215,22 @@ img{
 .section-four-list-item{
     width: calc((100% - 48px) / 3);
 }
+.page-header > .container{
+    display: flex;
+}
 .section-one > .container{
     flex-direction: column;
     align-items: center;
+    display: flex;
 }
 .section-three > .container{
     flex-direction: column;
+    display: flex;
 }
 
 .section-four > .container{
     flex-direction: column;
+    display: flex;
 }
 .section-four-item{
     padding: 32px 16px;
@@ -233,11 +238,8 @@ img{
     border-top: none;
 }
 .footer > .container{
-    flex-direction: column;
+    display: block;
 }
 .p-footer{
     color: #F4F4FD;
-}
-.footer > a{
-    display: inline-block;
 }
