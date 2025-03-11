@@ -40,7 +40,6 @@ img{
     display: block;
 }
 .page-header{
-    padding: 24px 0;
     border-bottom: 1px solid #e7e9fc;
 }
 .page-nav{
@@ -55,7 +54,7 @@ img{
     text-align: center;
     letter-spacing: 0.02em;
     max-width: 496px;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 .section-one-button{
     font-size: 16px;
@@ -115,6 +114,7 @@ img{
     font-size: 16px;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    display: block;
 }
 .nav-address{
     font-style: normal;
@@ -125,6 +125,7 @@ img{
     color: #434455;
     font-weight: 400;
     font-size: 16px;
+    padding: 24px 0;
 }
 .section-one{
     background: #2e2f42;
@@ -217,21 +218,14 @@ img{
 }
 .page-header > .container{
     display: flex;
+    align-items: center;
 }
 .section-one > .container{
     flex-direction: column;
     align-items: center;
     display: flex;
 }
-.section-three > .container{
-    flex-direction: column;
-    display: flex;
-}
 
-.section-four > .container{
-    flex-direction: column;
-    display: flex;
-}
 .section-four-item{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -241,5 +235,9 @@ img{
     display: block;
 }
 .p-footer{
+    max-width: 264px;
     color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
